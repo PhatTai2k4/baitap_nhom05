@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TiemThuoc>
+    <!-- ====== LOAI THUOC ====== -->
+    <LoaiThuoc>
+        <MaLoai>L01</MaLoai>
+        <TenLoai>Giảm đau</TenLoai>
+        <MoTa>Dùng để giảm đau nhẹ</MoTa>
+    </LoaiThuoc>
+    <LoaiThuoc>
+        <MaLoai>L02</MaLoai>
+        <TenLoai>Kháng sinh</TenLoai>
+        <MoTa>Điều trị nhiễm khuẩn</MoTa>
+    </LoaiThuoc>
+    <LoaiThuoc>
+        <MaLoai>L03</MaLoai>
+        <TenLoai>Vitamin</TenLoai>
+        <MoTa>Bổ sung dinh dưỡng</MoTa>
+    </LoaiThuoc>
+    <LoaiThuoc>
+        <MaLoai>L04</MaLoai>
+        <TenLoai>Hạ sốt</TenLoai>
+        <MoTa>Giúp hạ thân nhiệt</MoTa>
+    </LoaiThuoc>
+    <LoaiThuoc>
+        <MaLoai>L05</MaLoai>
+        <TenLoai>Tiêu hóa</TenLoai>
+        <MoTa>Hỗ trợ tiêu hóa</MoTa>
+    </LoaiThuoc>
+
+    <!-- ====== KE THUOC ====== -->
+    <KeThuoc>
+        <MaKe>K01</MaKe>
+        <SoLuong>100</SoLuong>
+        <MaLoaiThuoc>L01</MaLoaiThuoc>
+        <TrangThai>Đang sử dụng</TrangThai>
+        <MaThuoc>T01</MaThuoc>
+    </KeThuoc>
+    <KeThuoc>
+        <MaKe>K02</MaKe>
+        <SoLuong>150</SoLuong>
+        <MaLoaiThuoc>L02</MaLoaiThuoc>
+        <TrangThai>Đang sử dụng</TrangThai>
+        <MaThuoc>T02</MaThuoc>
+    </KeThuoc>
+    <KeThuoc>
+        <MaKe>K03</MaKe>
+        <SoLuong>80</SoLuong>
+        <MaLoaiThuoc>L03</MaLoaiThuoc>
+        <TrangThai>Đang sử dụng</TrangThai>
+        <MaThuoc>T03</MaThuoc>
+    </KeThuoc>
+    <KeThuoc>
+        <MaKe>K04</MaKe>
+        <SoLuong>60</SoLuong>
+        <MaLoaiThuoc>L04</MaLoaiThuoc>
+        <TrangThai>Tạm ngưng</TrangThai>
+        <MaThuoc>T04</MaThuoc>
+    </KeThuoc>
+    <KeThuoc>
+        <MaKe>K05</MaKe>
+        <SoLuong>90</SoLuong>
+        <MaLoaiThuoc>L05</MaLoaiThuoc>
+        <TrangThai>Đang sử dụng</TrangThai>
+        <MaThuoc>T03</MaThuoc>
+    </KeThuoc>
+
+    <!-- ====== THUOC ====== -->
+    <Thuoc>
+        <MaThuoc>T01</MaThuoc>
+        <TenThuoc>Paracetamol</TenThuoc>
+        <HanSuDung>2026-06-01</HanSuDung>
+        <DonViTinh>Viên</DonViTinh>
+        <Gia>5000</Gia>
+        <SoLuongTon>200</SoLuongTon>
+
+    </Thuoc>
+    <Thuoc>
+        <MaThuoc>T02</MaThuoc>
+        <TenThuoc>Amoxicillin</TenThuoc>
+        <HanSuDung>2026-03-01</HanSuDung>
+        <DonViTinh>Viên</DonViTinh>
+        <Gia>7000</Gia>
+        <SoLuongTon>150</SoLuongTon>
+
+    </Thuoc>
+    <Thuoc>
+        <MaThuoc>T03</MaThuoc>
+        <TenThuoc>Vitamin C</TenThuoc>
+        <HanSuDung>2027-01-01</HanSuDung>
+        <DonViTinh>Viên</DonViTinh>
+        <Gia>3000</Gia>
+        <SoLuongTon>300</SoLuongTon>
+
+    </Thuoc>
+    <Thuoc>
+        <MaThuoc>T04</MaThuoc>
+        <TenThuoc>Ibuprofen</TenThuoc>
+        <HanSuDung>2026-09-01</HanSuDung>
+        <DonViTinh>Viên</DonViTinh>
+        <Gia>8000</Gia>
+        <SoLuongTon>180</SoLuongTon>
+
+    </Thuoc>
+    <Thuoc>
+        <MaThuoc>T05</MaThuoc>
+        <TenThuoc>Smecta</TenThuoc>
+        <HanSuDung>2027-02-01</HanSuDung>
+        <DonViTinh>Gói</DonViTinh>
+        <Gia>9000</Gia>
+        <SoLuongTon>120</SoLuongTon>
+
+    </Thuoc>
+
+    <!-- ====== NHA CUNG CAP ====== -->
+    <NhaCungCap>
+        <MaNCC>NCC01</MaNCC>
+        <TenNCC>CTY Dược Trung Ương</TenNCC>
+        <DiaChi>Hà Nội</DiaChi>
+        <SDT>0901234567</SDT>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC02</MaNCC>
+        <TenNCC>Dược Hậu Giang</TenNCC>
+        <DiaChi>Cần Thơ</DiaChi>
+        <SDT>0902234567</SDT>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC03</MaNCC>
+        <TenNCC>Pharma Bình Dương</TenNCC>
+        <DiaChi>Bình Dương</DiaChi>
+        <SDT>0903234567</SDT>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC04</MaNCC>
+        <TenNCC>CTY CP Dược An Khang</TenNCC>
+        <DiaChi>TP.HCM</DiaChi>
+        <SDT>0904234567</SDT>
+    </NhaCungCap>
+    <NhaCungCap>
+        <MaNCC>NCC05</MaNCC>
+        <TenNCC>CTY CP Dược Phúc An</TenNCC>
+        <DiaChi>Đà Nẵng</DiaChi>
+        <SDT>0905234567</SDT>
+    </NhaCungCap>
+
+    <!-- ====== PHIEU NHAP ====== -->
+
+    <PhieuNhap>
+        <MaPhieuNhap>PN02</MaPhieuNhap>
+        <MaNCC>NCC02</MaNCC>
+        <NgayNhap>2025-10-01</NgayNhap>
+        <TongTien>530000</TongTien>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPhieuNhap>PN03</MaPhieuNhap>
+        <MaNCC>NCC01</MaNCC>
+        <NgayNhap>2025-10-01</NgayNhap>
+        <TongTien>330000</TongTien>
+    </PhieuNhap>
+    <PhieuNhap>
+        <MaPhieuNhap>PN04</MaPhieuNhap>
+        <MaNCC>NCC03</MaNCC>
+        <NgayNhap>2025-10-01</NgayNhap>
+        <TongTien>330000</TongTien>
+    </PhieuNhap>
+    <!-- CHI TIẾT PHIẾU NHẬP -->
+    <ChiTietPhieuNhap>
+        <MaPhieuNhap>PN02</MaPhieuNhap>
+        <MaThuoc>T01</MaThuoc>
+        <SoLuong>50</SoLuong>
+        <ThanhTien>250000</ThanhTien>
+    </ChiTietPhieuNhap>
+
+    <ChiTietPhieuNhap>
+        <MaPhieuNhap>PN02</MaPhieuNhap>
+        <MaThuoc>T02</MaThuoc>
+        <SoLuong>40</SoLuong>
+        <ThanhTien>280000</ThanhTien>
+    </ChiTietPhieuNhap>
+    <ChiTietPhieuNhap>
+        <MaPhieuNhap>PN03</MaPhieuNhap>
+        <MaThuoc>T04</MaThuoc>
+        <SoLuong>40</SoLuong>
+        <ThanhTien>280000</ThanhTien>
+    </ChiTietPhieuNhap>
+
+
+    <!-- ====== KHACH HANG ====== -->
+    <KhachHang>
+        <MaKH>KH01</MaKH>
+        <HoTen>Nguyen Van A</HoTen>
+        <SDT>0981234567</SDT>
+        <GioiTinh>1</GioiTinh>
+        <NgaySinh>1990-05-15</NgaySinh>
+    </KhachHang>
+    <KhachHang>
+        <MaKH>KH02</MaKH>
+        <HoTen>Tran Thi B</HoTen>
+        <SDT>0982345678</SDT>
+        <GioiTinh>0</GioiTinh>
+        <NgaySinh>1995-10-12</NgaySinh>
+    </KhachHang>
+    <KhachHang>
+        <MaKH>KH03</MaKH>
+        <HoTen>Le Van C</HoTen>
+        <SDT>0983456789</SDT>
+        <GioiTinh>1</GioiTinh>
+        <NgaySinh>1988-02-22</NgaySinh>
+    </KhachHang>
+    <KhachHang>
+        <MaKH>KH04</MaKH>
+        <HoTen>Pham Thi D</HoTen>
+        <SDT>0984567890</SDT>
+        <GioiTinh>0</GioiTinh>
+        <NgaySinh>1992-03-30</NgaySinh>
+    </KhachHang>
+    <KhachHang>
+        <MaKH>KH05</MaKH>
+        <HoTen>Do Van E</HoTen>
+        <SDT>0985678901</SDT>
+        <GioiTinh>1</GioiTinh>
+        <NgaySinh>1985-08-09</NgaySinh>
+    </KhachHang>
+
+    <!-- ====== HOA DON ====== -->
+    <HoaDon>
+        <MaHoaDon>HD01</MaHoaDon>
+        <NgayLap>2025-10-01</NgayLap>
+        <TongTien>50000</TongTien>
+        <MaKH>KH01</MaKH>
+    </HoaDon>
+    <HoaDon>
+        <MaHoaDon>HD02</MaHoaDon>
+        <NgayLap>2025-10-02</NgayLap>
+        <TongTien>90000</TongTien>
+        <MaKH>KH02</MaKH>
+    </HoaDon>
+    <HoaDon>
+        <MaHoaDon>HD03</MaHoaDon>
+        <NgayLap>2025-10-03</NgayLap>
+        <TongTien>75000</TongTien>
+        <MaKH>KH03</MaKH>
+    </HoaDon>
+    <HoaDon>
+        <MaHoaDon>HD04</MaHoaDon>
+        <NgayLap>2025-10-04</NgayLap>
+        <TongTien>100000</TongTien>
+        <MaKH>KH04</MaKH>
+    </HoaDon>
+    <HoaDon>
+        <MaHoaDon>HD05</MaHoaDon>
+        <NgayLap>2025-10-05</NgayLap>
+        <TongTien>150000</TongTien>
+        <MaKH>KH05</MaKH>
+    </HoaDon>
+
+    <!-- ====== CHI TIET HOA DON ====== -->
+    <ChiTietHoaDon>
+        <MaHoaDon>HD01</MaHoaDon>
+        <MaThuoc>T01</MaThuoc>
+        <SoLuong>2</SoLuong>
+        <Gia>10000</Gia>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <MaHoaDon>HD01</MaHoaDon>
+        <MaThuoc>T03</MaThuoc>
+        <SoLuong>1</SoLuong>
+        <Gia>3000</Gia>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <MaHoaDon>HD02</MaHoaDon>
+        <MaThuoc>T02</MaThuoc>
+        <SoLuong>3</SoLuong>
+        <Gia>21000</Gia>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <MaHoaDon>HD03</MaHoaDon>
+        <MaThuoc>T05</MaThuoc>
+        <SoLuong>2</SoLuong>
+        <Gia>18000</Gia>
+    </ChiTietHoaDon>
+    <ChiTietHoaDon>
+        <MaHoaDon>HD04</MaHoaDon>
+        <MaThuoc>T04</MaThuoc>
+        <SoLuong>4</SoLuong>
+        <Gia>32000</Gia>
+    </ChiTietHoaDon>
+
+</TiemThuoc>
