@@ -1,0 +1,47 @@
+<!ELEMENT TiemThuoc (LoaiThuoc*, Thuoc*, KeThuoc*, NhaCungCap*, PhieuNhap*, ChiTietPhieuNhap*, KhachHang*, HoaDon*, ChiTietHoaDon*)>
+
+<!ELEMENT LoaiThuoc (TenLoai, MoTa)>
+<!ATTLIST LoaiThuoc id ID #REQUIRED>
+<!ELEMENT TenLoai (#PCDATA)>
+<!ELEMENT MoTa (#PCDATA)>
+
+<!ELEMENT Thuoc (TenThuoc, HanSuDung, DonViTinh, Gia, SoLuongTon)>
+<!ATTLIST Thuoc id ID #REQUIRED>
+<!ELEMENT TenThuoc (#PCDATA)>
+<!ELEMENT HanSuDung (#PCDATA)>
+<!ELEMENT DonViTinh (#PCDATA)>
+<!ELEMENT Gia (#PCDATA)>
+<!ELEMENT SoLuongTon (#PCDATA)>
+
+<!ELEMENT KeThuoc (SoLuong, TrangThai)>
+<!ATTLIST KeThuoc id ID #REQUIRED maloai IDREF #REQUIRED mathuoc IDREF #REQUIRED>
+<!ELEMENT SoLuong (#PCDATA)>
+<!ELEMENT TrangThai (#PCDATA)>
+
+<!ELEMENT NhaCungCap (TenNCC, DiaChi, SDT)>
+<!ATTLIST NhaCungCap id ID #REQUIRED>
+<!ELEMENT TenNCC (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT SDT (#PCDATA)>
+
+<!ELEMENT PhieuNhap (NgayNhap, TongTien)>
+<!ATTLIST PhieuNhap id ID #REQUIRED mancc IDREF #REQUIRED>
+<!ELEMENT NgayNhap (#PCDATA)>
+<!ELEMENT TongTien (#PCDATA)>
+
+<!ELEMENT ChiTietPhieuNhap (SoLuong, ThanhTien)>
+<!ATTLIST ChiTietPhieuNhap maphieunhap IDREF #REQUIRED mathuoc IDREF #REQUIRED>
+<!ELEMENT ThanhTien (#PCDATA)>
+
+<!ELEMENT KhachHang (HoTen, SDT, GioiTinh, NgaySinh)>
+<!ATTLIST KhachHang id ID #REQUIRED>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT GioiTinh (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+
+<!ELEMENT HoaDon (NgayLap, TongTien)>
+<!ATTLIST HoaDon id ID #REQUIRED makh IDREF #REQUIRED>
+<!ELEMENT NgayLap (#PCDATA)>
+
+<!ELEMENT ChiTietHoaDon (SoLuong, Gia)>
+<!ATTLIST ChiTietHoaDon mahoadon IDREF #REQUIRED mathuoc IDREF #REQUIRED>
